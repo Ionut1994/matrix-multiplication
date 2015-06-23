@@ -3,8 +3,13 @@
 using namespace std;
 int main()
 {
-	ifstream f ("fisier.in");	//fisier de intrare
-	ofstream g ("fisier.out");	//fisier de iesire
+	ifstream f ("fisier.in");	
+	//fisier de intrare
+	ofstream g ("fisier.out");	
+
+
+
+		//fisier de iesire
 	int A[10][10], B[10][10], C[10][10], i, j, k, s, n;
 	f>>n;
 	for (i=0; i<n; i++)	//citim matricea A
